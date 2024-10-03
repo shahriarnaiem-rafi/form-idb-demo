@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        fieldset {
+            position: absolute;
+            padding: 50px;
+            font-size: 20px;
+            background-color: aqua;
+            margin: 90px 450px;
+            
+        }
+
+        input {
+            padding: 5px;
+            box-shadow: 3px 0px 4px rgb(22, 14, 14);
+            border-radius: 6px;
+            color: rgb(255, 10, 10);
+            text-shadow: 3px 0px 2px gray;
+        }
+
+        body {
+            color: rgb(255, 10, 10);
+        }
+        .ddd{
+            position: absolute;
+            left: 150px;
+        }
+        .btn{
+            color: black;
+            background-color: bisque;
+        }
+        .btn:hover{
+            background-color: rgb(156, 116, 68);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <label for=""> Name :-</label>
+            <input type="text" name="" id="" placeholder="Enter your name"><br><br>
+
+
+            <label for=""> ID :-</label>
+            <input type="number" name="" id="" placeholder="Enter your ID"><br><br>
+
+
+
+
+            <label for="">Gender :-</label>
+            Male <input type="radio" name="Gender" id="">
+            Female <input type="radio" name="Gender" id=""><br><br>
+
+            <label for="">Round :-</label>
+            <select name="" id="">
+                <option value="">61</option>
+                <option value="" selected>62</option>
+                <option value="">63</option>
+                <option value="">64</option>
+            </select>
+
+            <p> Education:-
+
+                <input type="checkbox">SSC
+                <input type="checkbox">HSC
+                <input type="checkbox">Diploma
+            </p>
+
+            <div class="ddd">
+                <input type="submit" class="btn">
+                <input type="reset" class="btn">
+            </div>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
